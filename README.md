@@ -14,11 +14,12 @@
 
 <br>
 
-    - Facade:
-        Structure pattern;
-        Show how mount objects and classes in big projects;
-        Is an object that serves as a front-facing interface;
-        Mask complex implementations or structural code.
+    Facade
+
+        - Structure pattern;
+        - Show how mount objects and classes in big projects;
+        - Is an object that serves as a front-facing interface;
+        - Mask complex implementations or structural code.
 
     To see this pattern working, run:  `yarn facade`
 
@@ -28,11 +29,12 @@
 
 <br>
 
-    - Strategy:
-        Behavior pattern;
-        Defines a family of algorithms;
-        Encapsulates each algorithm as a class;
-        Makes Liskov Substitution Principle more easy to implementation;
+    Strategy
+
+        - Behavior pattern;
+        - Defines a family of algorithms;
+        - Encapsulates each algorithm as a class;
+        - Makes Liskov Substitution Principle more easy to implementation;
 
     To see this pattern working, run:  `yarn strategy`
 
@@ -41,7 +43,8 @@
 </div>
 <br>
 
-    - Singleton
+    Singleton
+
         - Creation pattern;
         - Provides only one instance of class;
         - Usually have a global instance;
@@ -53,7 +56,8 @@
 </div>
 <br>
 
-    - Observer
+    Observer
+
         - Behavior pattern;
         - Defines dependencies one-to-many;
         - When an object changes, all dependencies are notified and updated.
@@ -65,9 +69,11 @@
 </div>
 <br>
 
-    - Template Method
+    Template Method
+
         - Behavior pattern;
-        -
+        - Breaks algorithm in steps methods;
+        - One standard method call the steps;
 
       To see this pattern working, run:  `yarn templateMethod`
 
