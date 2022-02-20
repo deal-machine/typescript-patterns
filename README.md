@@ -9,8 +9,10 @@
 <h2>Design Patterns </h2>
 
     - Facade:
-        Structure pattern, it show how mount objects and classes in big projects.
-        Is an object that serves as a front-facing interface masking complex implementations or structural code.
+        Structure pattern;
+        Show how mount objects and classes in big projects;
+        Is an object that serves as a front-facing interface;
+        Mask complex implementations or structural code.
 
 <div align="center">
     <img src="./src/assets/facadePattern.png" alt="facade pattern image" height="220" width="350"/>
