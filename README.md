@@ -2,13 +2,15 @@
  <img align="center" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
  </h2>
 
-<br>
+<div align="justify">
+    <p>
+        This project was created to learn and practice concepts about Typescript.
+        It is a powerfull superset of javascript, created by Microsoft, it can be used in back-end or front-end projects. Other feature, or specifically, programming paradigm, is the Oriented Object Programming (OOP).
+    </p>
 
-<p>
-    This project was created to learn and practice concepts about Typescript.
-    It is a powerfull superset of javascript, created by Microsoft, it can be used in back-end or front-end projects. Other feature, or specifically, programming paradigm, is the Oriented Object Programming (OOP).
-    <hr>
-<br>
+</div>
+
+<hr>
 
 <h2>Design Patterns :heavy_check_mark:</h2>
 
@@ -81,6 +83,8 @@
     <img src="./src/assets/templateMethodPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
 </div>
 
-</p>
+<hr>
 
-To see more, follow the documentation: https://www.typescriptlang.org/docs/handbook/intro.html
+<p>
+    To see more, follow the documentation: https://www.typescriptlang.org/docs/handbook/intro.html
+</p>
