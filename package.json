@@ -9,7 +9,9 @@
     "build": "tsc",
     "facade": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Facade.ts",
     "strategy": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Strategy.ts",
-    "singleton": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Singleton.ts"
+    "singleton": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Singleton.ts",
+    "observer": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Observer.ts",
+    "templateMethod": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/TemplateMethod.ts"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",

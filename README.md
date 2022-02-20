@@ -23,7 +23,7 @@
     To see this pattern working, run:  `yarn facade`
 
 <div align="center">
-    <img src="./src/assets/facadePattern.png" alt="facade pattern image" height="220" width="350"/>
+    <img src="./src/assets/facadePatternFunny.png" alt="facade pattern image" height="220" width="350"/>
 </div>
 
 <br>
@@ -37,23 +37,43 @@
     To see this pattern working, run:  `yarn strategy`
 
 <div align="center">
-    <img src="./src/assets/strategyPattern.png" alt="strategy pattern image" height="220" width="350"/>
+    <img src="./src/assets/strategyPatternFunny.png" alt="strategy pattern image" height="220" width="350"/>
 </div>
 <br>
 
     - Singleton
+        - Creation pattern;
         - Provides only one instance of class;
         - Usually have a global instance;
 
     To see this pattern working, run:  `yarn singleton`
 
 <div align="center">
-    <img src="./src/assets/singletonPattern.png" alt="singleton pattern image" height="220" width="350"/>
+    <img src="./src/assets/singletonPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
 </div>
 <br>
 
     - Observer
+        - Behavior pattern;
+        - Defines dependencies one-to-many;
+        - When an object changes, all dependencies are notified and updated.
+
+      To see this pattern working, run:  `yarn observer`
+
+<div align="center">
+    <img src="./src/assets/observerPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
+</div>
+<br>
+
     - Template Method
+        - Behavior pattern;
+        -
+
+      To see this pattern working, run:  `yarn templateMethod`
+
+<div align="center">
+    <img src="./src/assets/templateMethodPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
+</div>
 
 </p>
 
