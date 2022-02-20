@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "commonjs",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules ./dist/index.js",
+    "build": "tsc"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",

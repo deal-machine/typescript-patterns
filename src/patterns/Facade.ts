@@ -30,7 +30,7 @@ class ConvertDates {
     this.dateToConvert = dateToConvert;
   }
 
-  public convertDate() {
+  public convert() {
     return new Intl.DateTimeFormat("pt-BR", { timeZone: "UTC" }).format(
       this.dateToConvert
     );
@@ -38,5 +38,17 @@ class ConvertDates {
 }
 
 class Facade {
-  public;
+  public handle() {
+    const user = new User("Douglas Eduardo", new Date("1995-04-28"));
+
+    const age = user.getAge();
+    const { name, birthDate } = user.getUser();
+
+    const convertDate = new ConvertDates(birthDate);
+    const formatedDate = convertDate.convert();
+
+    return { name, age, birthDate: formatedDate };
+  }
 }
+
+export { Facade };
