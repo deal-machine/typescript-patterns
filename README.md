@@ -40,7 +40,18 @@
     <img src="./src/assets/strategyPattern.png" alt="strategy pattern image" height="220" width="350"/>
 </div>
 <br>
+
     - Singleton
+        - Provides only one instance of class;
+        - Usually have a global instance;
+
+    To see this pattern working, run:  `yarn singleton`
+
+<div align="center">
+    <img src="./src/assets/singletonPattern.png" alt="singleton pattern image" height="220" width="350"/>
+</div>
+<br>
+
     - Observer
     - Template Method
 
