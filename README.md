@@ -7,11 +7,12 @@
 <p>
     This project was created to learn and practice concepts about Typescript.
     It is a powerfull superset of javascript, created by Microsoft, it can be used in back-end or front-end projects. Other feature, or specifically, programming paradigm, is the Oriented Object Programming (OOP).
-
-<br>
+    <hr>
 <br>
 
 <h2>Design Patterns :heavy_check_mark:</h2>
+
+<br>
 
     - Facade:
         Structure pattern;
@@ -19,9 +20,13 @@
         Is an object that serves as a front-facing interface;
         Mask complex implementations or structural code.
 
+    To see this pattern working, run:  `yarn facade`
+
 <div align="center">
     <img src="./src/assets/facadePattern.png" alt="facade pattern image" height="220" width="350"/>
 </div>
+
+<br>
 
     - Strategy:
         Behavior pattern;
@@ -29,10 +34,12 @@
         Encapsulates each algorithm as a class;
         Makes Liskov Substitution Principle more easy to implementation;
 
+    To see this pattern working, run:  `yarn strategy`
+
 <div align="center">
     <img src="./src/assets/strategyPattern.png" alt="strategy pattern image" height="220" width="350"/>
 </div>
-
+<br>
     - Singleton
     - Observer
     - Template Method
