@@ -13,11 +13,18 @@ class User {
   }
 
   public getAge() {
-    const getAgeYears = this.birthDate.getFullYear();
+    const ageYear = this.birthDate.getFullYear();
+    const ageMonth = this.birthDate.getMonth() + 1;
+    const actualYear = new Date().getFullYear();
+    const actualMonth = new Date().getMonth() + 1;
 
-    const getAgeMonths = this.birthDate.getMonth();
+    const months = actualMonth - ageMonth;
+    let years = months < 0 ? actualYear - ageYear - 1 : actualYear - ageYear;
 
-    this.age = { years: getAgeYears, months: getAgeMonths };
+    this.age = {
+      years,
+      months: months + 12,
+    };
 
     return this.age;
   }
@@ -37,18 +44,25 @@ class ConvertDates {
   }
 }
 
-class Facade {
-  public handle() {
-    const user = new User("Douglas Eduardo", new Date("1995-04-28"));
+class ConvertUserInfosFacade {
+  public handle(name: string, birthDate: Date) {
+    const user = new User(name, birthDate);
 
     const age = user.getAge();
-    const { name, birthDate } = user.getUser();
+    const { name: userName, birthDate: userBirthDate } = user.getUser();
 
-    const convertDate = new ConvertDates(birthDate);
+    const convertDate = new ConvertDates(userBirthDate);
     const formatedDate = convertDate.convert();
 
-    return { name, age, birthDate: formatedDate };
+    return { name: userName, age, birthDate: formatedDate };
   }
 }
 
-export { Facade };
+(() => {
+  const userConverted = new ConvertUserInfosFacade().handle(
+    "Douglas Eduardo",
+    new Date("1998-03-13")
+  );
+
+  console.log(userConverted);
+})();

@@ -5,8 +5,9 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules ./dist/index.js",
-    "build": "tsc"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc",
+    "facade": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Facade.ts"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
