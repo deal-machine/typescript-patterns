@@ -44,7 +44,7 @@ class ConvertDates {
   }
 }
 
-class ConvertUserInfosFacade {
+class Facade {
   public handle(name: string, birthDate: Date) {
     const user = new User(name, birthDate);
 
@@ -59,7 +59,7 @@ class ConvertUserInfosFacade {
 }
 
 (() => {
-  const userConverted = new ConvertUserInfosFacade().handle(
+  const userConverted = new Facade().handle(
     "Douglas Eduardo",
     new Date("1998-03-13")
   );

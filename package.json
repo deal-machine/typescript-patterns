@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts",
     "build": "tsc",
-    "facade": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Facade.ts"
+    "facade": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Facade.ts",
+    "strategy": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/patterns/Strategy.ts"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
