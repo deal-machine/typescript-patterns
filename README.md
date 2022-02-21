@@ -36,7 +36,7 @@
 
 <div align="center">
     <h3>Example :pushpin:</h3> 
-        <img src="./src/assets/facadePattern.png" alt="facade pattern image" height="220" width="350"/>
+        <img src="./src/assets/facadePattern.png" alt="facade pattern image" height="220" width="400"/>
     <br><br>
      <h3>Illustration</h3>
         <img src="./src/assets/facadePatternFunny.png" alt="facade pattern image" height="220" width="350"/>
@@ -56,7 +56,7 @@
 
 <div align="center">
     <h3>Example :pushpin:</h3>
-        <img src="./src/assets/strategyPattern.png" alt="strategy pattern image" height="220" width="350"/>
+        <img src="./src/assets/strategyPattern.png" alt="strategy pattern image" height="220" width="400"/>
     <br><br>
     <h3>Illustration</h3>
         <img src="./src/assets/strategyPatternFunny.png" alt="strategy pattern image" height="220" width="350"/>
@@ -75,7 +75,7 @@
 
 <div align="center">
     <h3>Example :pushpin:</h3>
-        <img src="./src/assets/singletonPattern.png" alt="singleton pattern image" height="220" width="350"/>
+        <img src="./src/assets/singletonPattern.png" alt="singleton pattern image" height="220" width="400"/>
     <br><br>
     <h3>Illustration</h3>
         <img src="./src/assets/singletonPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
@@ -93,7 +93,7 @@
 
 <div align="center">
     <h3>Example :pushpin:</h3>
-        <img src="./src/assets/observerPattern.png" alt="singleton pattern image" height="220" width="350"/>
+        <img src="./src/assets/observerPattern.png" alt="singleton pattern image" height="220" width="400"/>
     <br><br>
     <h3>Illustration</h3>
         <img src="./src/assets/observerPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
