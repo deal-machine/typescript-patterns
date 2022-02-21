@@ -19,7 +19,7 @@
 
     Facade
 
-        - Structure pattern;
+        - Structural Pattern;
         - Show how mount objects and classes in big projects;
         - Is an object that serves as a front-facing interface;
         - Mask complex implementations or structural code.
@@ -34,7 +34,7 @@
 
     Strategy
 
-        - Behavior pattern;
+        - Behavioral Pattern;
         - Defines a family of algorithms;
         - Encapsulates each algorithm as a class;
         - Makes Liskov Substitution Principle more easy to implementation;
@@ -48,7 +48,7 @@
 
     Singleton
 
-        - Creation pattern;
+        - Creational Pattern;
         - Provides only one instance of class;
         - Usually have a global instance;
 
@@ -61,7 +61,7 @@
 
     Observer
 
-        - Behavior pattern;
+        - Behavioral Pattern;
         - Defines dependencies one-to-many;
         - When an object changes, all dependencies are notified and updated.
 
@@ -74,7 +74,7 @@
 
     Template Method
 
-        - Behavior pattern;
+        - Behavioral Pattern;
         - Breaks algorithm in steps methods;
         - One standard method call the steps;
 
