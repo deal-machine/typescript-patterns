@@ -112,7 +112,7 @@
 
 <div align="center">
     <h3>Example :pushpin:</h3>
-        <img src="./src/assets/templateMethod.png" alt="singleton pattern image" height="220" width="400"/>
+        <img src="./src/assets/templateMethodPattern.png" alt="singleton pattern image" height="220" width="400"/>
     <br><br>
     <h3>Illustration</h3>
        <img src="./src/assets/templateMethodPatternFunny.png" alt="singleton pattern image" height="220" width="350"/>
